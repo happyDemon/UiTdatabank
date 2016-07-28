@@ -1,0 +1,25 @@
+{
+  "name":        "happydemon/uitdatabank",
+  "type":        "library",
+  "description": "Een handige package om verbinding te maken met Cultuurnet's API in PHP.",
+  "homepage":    "https://github.com/happyDemon/UiTdatabank",
+  "license":     "BSD",
+  "authors":     [
+    {
+      "name":  "Maxim Kerstens",
+      "email": "maxim@happydemon.xyz",
+      "role":  "Developer"
+    }
+  ],
+  "require":     {
+    "php":      ">=5.3.0",
+    "ext-curl": "*",
+    "cultuurnet/cdb": "^2.1"
+  },
+  "autoload":    {
+    "psr-4": {
+      "HappyDemon\\UitDatabank\\": "src"
+    }
+  }
+}
+
